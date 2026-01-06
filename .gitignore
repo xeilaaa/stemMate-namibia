@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.env
+myenv/
+venv/
+env/
+server/myenv/
+server/.env
+
+# PDFs & datasets
+*.pdf
+server/uploaded_pdfs/
+
+# Vector database / Chroma
+server/chroma_store/
+*.bin
+*.sqlite3
+
+# OS files
+.DS_Store
+Thumbs.db
